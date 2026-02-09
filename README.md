@@ -14,16 +14,16 @@ OPENAI_API_KEY=...
 python -m sub_src.run_all --llm openai --openai-model gpt-5-nano
 ```
 
-## Speed knobs
+## Options
 
 - `--skip-prp` (PRP baseline is LLM-expensive)
 - `--policy-extract-every N` (policy scoring dominates calls)
 - `--val-frac-exp1 F` / `--val-frac-exp2 F` (policy scoring is 1 call per val TS)
 
-## Use different models for policy
+## Use different models for policy 
 
-- `--openai-model-policy-extract` (policy generation; higher quality)
-- `--openai-model-policy-score` (policy scoring; faster)
+- `--openai-model-policy-extract` (for extracting policy)
+- `--openai-model-policy-score` (for policy scoring)
 
 Both default to `--openai-model` if omitted.
 
