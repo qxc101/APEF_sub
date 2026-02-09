@@ -1,4 +1,4 @@
-# `Implementation of APEF`
+# APEF
 This is the official implementation for paper LLM-based Evaluation Policy Extraction for Ecological Modeling. 
 ## Quick start
 
